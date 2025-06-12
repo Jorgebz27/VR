@@ -57,6 +57,8 @@ public class TargetManager : MonoBehaviour
             return;
         }
         
+        challengeStart = true;
+        
         stopTimeButton.SetActive(false);
     }
     

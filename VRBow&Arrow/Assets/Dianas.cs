@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Dianas : MonoBehaviour
 {
-    public TargetManager manager; // Se asignará cuando el gestor la inicialice
+    public TargetManager manager;
     private bool hasHit = false;
     
     public void InicializarDiana(TargetManager manager)

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5719725977305511516}
   - component: {fileID: 8862945036280398337}
   - component: {fileID: 4655538598032475172}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Floor cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 42.93, y: 6.27, z: 28.2}
-  m_LocalScale: {x: 5.3075376, y: 0.2507, z: 7.7611322}
+  m_LocalScale: {x: 0.9984539, y: 0.34859833, z: 7.7611322}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

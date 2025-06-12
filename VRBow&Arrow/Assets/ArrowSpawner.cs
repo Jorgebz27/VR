@@ -106,17 +106,17 @@ public class ArrowSpawner : MonoBehaviour
                 }
             }
             
-            //if (bowSocket != null && !bowSocket.hasSelection)
-            //{
-            //    Rigidbody bowRb = bow.GetComponent<Rigidbody>();
-            //    if (bowRb != null)
-            //    {   
-            //        bowRb.isKinematic = true;
-            //        bowRb.useGravity = false;
-            //    }
-            //    bow.transform.position = bowSocketTransform.position;
-            //    bow.transform.rotation = bowSocketTransform.rotation;
-            //}
+            if (bowSocket != null && !bowSocket.hasSelection)
+            {
+                Rigidbody bowRb = bow.GetComponent<Rigidbody>();
+                if (bowRb != null)
+                {   
+                    bowRb.isKinematic = true;
+                    bowRb.useGravity = false;
+                }
+                bow.transform.position = bowSocketTransform.position;
+                bow.transform.rotation = bowSocketTransform.rotation;
+            }
         }
     }
     

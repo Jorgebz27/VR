@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using TMPro;
+using static UnityEngine.SceneManagement.SceneManager;
 
 public class TimerController : MonoBehaviour
 {
